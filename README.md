@@ -9,7 +9,7 @@ Here is the first writing:
 
 It seems to like printing for some reason.
 
-I also implemented Graves' 2014 paper fully in JAX in the attached notebook. I could only get to about -941 nits, but I didn't do a lot of fine-tuning and I did make some small changes. I also only trained it for about 1/2 day on an A100-SXM4-40GB, which is quite an improvement from 8 years ago.
+I also implemented Graves' 2014 paper fully in JAX in the attached notebook. I could only get to about -941 nats, but I didn't do a lot of fine-tuning and I did make some small changes. I also only trained it for about 1/2 day on an A100-SXM4-40GB, which is quite an improvement from 8 years ago.
 
 Here is the output from the RNN for comparison (900 strokes):
 
