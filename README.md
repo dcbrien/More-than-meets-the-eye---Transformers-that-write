@@ -8,6 +8,8 @@ Here is the first writing:
 ![abcdefghi](abcdefghi.png)
 
 It seems to like printing for some reason.
+Update 22/10/16 - I have played around with the network extensively now, trying the pre-norm version, squared-relu, and 
+and learning rate schedule, but it always seems to narrow in on the printing. It does a very good job at it, but I don't think it's learning a mixture density, just simply the most simple printing that separates the letters more fully into tokens. It has a hard time with 'fuzzy' writing or multiple writers. I'm not sure why yet.
 
 I also implemented Graves' 2014 paper fully in JAX in the attached notebook. I could only get to about -941 nats, but I didn't do a lot of fine-tuning and I did make some small changes. I also only trained it for about 1/2 day on an A100-SXM4-40GB, which is quite an improvement from 8 years ago.
 
