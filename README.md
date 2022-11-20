@@ -3,9 +3,9 @@ Replication of Grave's 2013 hand-writing synthesis work, but with modern AI and 
 
 Here is the first writing:
 
-![Hello World](HelloWorld.png)
+![Hello World](figures/HelloWorld.png)
 
-![abcdefghi](abcdefghi.png)
+![abcdefghi](figures/abcdefghi.png)
 
 It seems to like printing for some reason.
 Update 22/10/16 - I have played around with the network extensively now, trying the pre-norm version, squared-relu, and 
@@ -15,11 +15,11 @@ I also implemented Graves' 2014 paper fully in JAX in the attached notebook. I c
 
 Here is the output from the RNN for comparison (900 strokes):
 
-![Graves' Hello World RNN](hello_world_RNN.png)
+![Graves' Hello World RNN](figures/hello_world_RNN.png)
 
 And here are the phis (the attention alignment), replicating Graves' 2014 Fig. 13:
 
-![Graves' Hello World RNN phis](hello_world_RNN_phis.png)
+![Graves' Hello World RNN phis](figures/hello_world_RNN_phis.png)
 
 Anyway, the code is ugly. Time to refactor and play around.
 
